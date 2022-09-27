@@ -1,0 +1,32 @@
+.cover__background {
+  max-width: 100%;
+  min-height: 46.25rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../images/cover-GD.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  color: #fff;
+  text-decoration: none;
+}
+
+.cover__background:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #2a2c2f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .3;
+  transition: opacity .3s linear;
+}
+
+.cover__background:hover:after {
+  opacity: .8;
+}

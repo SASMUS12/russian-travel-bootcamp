@@ -1,0 +1,23 @@
+.cards__link {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.375rem;
+  transition: opacity .2s linear;
+}
+
+.cards__link:hover {
+  opacity: .8;
+}
+
+.cards__link:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}

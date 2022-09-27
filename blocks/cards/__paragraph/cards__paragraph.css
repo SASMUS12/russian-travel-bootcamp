@@ -1,0 +1,10 @@
+.cargs__paragraph {
+  margin: 0 0 1.625rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.835rem;
+  row-gap: 1.625;
+}
+/* .cards__paragraph:last-child {
+  margin-bottom: 0;
+} */

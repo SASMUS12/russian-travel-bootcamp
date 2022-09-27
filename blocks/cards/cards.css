@@ -1,0 +1,11 @@
+.cards {
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+  gap: 3rem 2.5rem;
+  margin: 0 0 5rem;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
