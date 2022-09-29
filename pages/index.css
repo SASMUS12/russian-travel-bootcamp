@@ -21,6 +21,7 @@
 @import url("../blocks/header/__links/header__links.css");
 @import url("../blocks/header/__logo/header__logo.css");
 
+@import url("../blocks/intro/intro-section.css");
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__list/intro__list.css");
 @import url("../blocks/intro/__span-accent/intro__span-accent.css");
