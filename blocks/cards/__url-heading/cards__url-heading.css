@@ -7,3 +7,9 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 325px) {
+  .cards__url-heading {
+    padding: 0 1rem;
+  }
+}

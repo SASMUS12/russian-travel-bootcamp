@@ -1,7 +1,7 @@
 .header__link {
   color: #fff;
   text-decoration: none;
-  font-family: "inter", Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 1.75rem;
@@ -11,9 +11,10 @@
 .header__link:hover {
   opacity: .8;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 325px) {
   .header__link {
-    font-size: 18px;
-    line-height: 0.9;
+    font-size: 1.125rem;
+    line-height: calc(20 / 18);
   }
 }

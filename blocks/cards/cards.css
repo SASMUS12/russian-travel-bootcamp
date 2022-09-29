@@ -6,6 +6,27 @@
   margin: 0 0 5rem;
 }
 
-.place:last-child {
+.cards:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 1029px) {
+  .cards {
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+    gap: 3rem 2rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cards {
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    gap: 3rem 1.75rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .cards {
+    grid-template-columns: minmax(min-content, max-content);
+    gap: 2rem;
+  }
 }

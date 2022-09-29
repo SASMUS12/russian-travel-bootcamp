@@ -1,6 +1,5 @@
 .cover__background {
   max-width: 100%;
-  min-height: 46.25rem;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -13,6 +12,7 @@
   z-index: 1;
   color: #fff;
   text-decoration: none;
+  min-height: 46.25rem;
 }
 
 .cover__background:after {
@@ -24,9 +24,28 @@
   top: 0;
   left: 0;
   opacity: .3;
-  transition: opacity .3s linear;
+  transition: opacity .2s linear;
 }
 
 .cover__background:hover:after {
   opacity: .8;
+}
+
+@media screen and (max-width: 1029px) {
+  .cover__background {
+    min-height: 40rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cover__background {
+    min-height: 30rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .cover__background {
+    min-height: 12.5rem;
+    background-size: cover;
+  }
 }

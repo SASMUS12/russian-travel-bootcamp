@@ -1,4 +1,27 @@
 .cards__image {
+  height: 28.75rem;
+  width: 28.75rem;
   max-width: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1029px) {
+  .cards__image {
+    height: 27.5rem;
+    width: 27.5rem;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .cards__image {
+    height: 21.25rem;
+    width: 21.25rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .cards__image {
+    height: 20rem;
+    width: 20rem;
+  }
 }

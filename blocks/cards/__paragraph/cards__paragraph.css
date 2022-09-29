@@ -1,10 +1,25 @@
-.cargs__paragraph {
+.cards__paragraph {
   margin: 0 0 1.625rem;
   font-size: 1.125rem;
   font-weight: normal;
-  line-height: 1.835rem;
-  row-gap: 1.625;
+  line-height: calc(29 / 18);
 }
-/* .cards__paragraph:last-child {
+
+.cards__paragraph:last-child {
   margin-bottom: 0;
-} */
+}
+
+@media screen and (max-width: 770px) {
+  .cards__paragraph {
+    font-size: 1rem;
+    line-height: calc(26 / 16);
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .cards__paragraph {
+    font-size: 1rem;
+    line-height: calc(26 / 16);
+    padding: 0 1rem;
+  }
+}
