@@ -13,6 +13,7 @@
   color: #fff;
   text-decoration: none;
   min-height: 46.25rem;
+  background-size: cover;
 }
 
 .cover__background:after {
@@ -46,6 +47,5 @@
 @media screen and (max-width: 325px) {
   .cover__background {
     min-height: 12.5rem;
-    background-size: cover;
   }
 }

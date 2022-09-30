@@ -4,27 +4,25 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 1rem;
   margin: 0 auto 5.75rem;
-
+  list-style-type: none;
+  padding: 0;
 }
 
 @media screen and (max-width: 1029px) {
   .photo-grid {
-    margin: 0 3rem 5.75rem;
-    padding: 0;
+    margin: 5.75rem 3rem;
   }
 }
 
 @media screen and (max-width: 770px) {
   .photo-grid {
-    margin: 0 1.5rem 5.5rem 1.5rem;
-    padding: 0;
+    margin: 5.5rem 1.5rem;
   }
 }
 
 @media screen and (max-width: 325px) {
   .photo-grid {
-    margin: 0 1rem 4rem 1rem;
-    padding: 0;
+    margin: 4rem 1rem;
     gap: .75rem;
   }
 }

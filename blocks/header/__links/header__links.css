@@ -1,7 +1,6 @@
 .header__links {
   list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(2, min-content);
+  display: flex;
   gap: 1.125rem;
   align-items: end;
   list-style: none;

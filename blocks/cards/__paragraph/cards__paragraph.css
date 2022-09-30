@@ -18,8 +18,6 @@
 
 @media screen and (max-width: 325px) {
   .cards__paragraph {
-    font-size: 1rem;
-    line-height: calc(26 / 16);
     padding: 0 1rem;
   }
 }
