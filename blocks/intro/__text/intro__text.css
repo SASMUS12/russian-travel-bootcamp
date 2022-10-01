@@ -5,3 +5,9 @@
   line-height: 1.625rem;
   margin: 2.5rem 0 0;
 }
+
+@media screen and (max-width: 770px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}

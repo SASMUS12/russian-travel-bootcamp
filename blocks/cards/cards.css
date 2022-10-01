@@ -6,15 +6,12 @@
   margin: 0 0 5rem;
 }
 
-.cards:last-child {
-  margin-bottom: 0;
-}
-
 @media screen and (max-width: 1029px) {
   .cards {
     grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
     gap: 3rem 2rem;
   }
+
 }
 
 @media screen and (max-width: 770px) {
@@ -24,9 +21,10 @@
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 600px) {
   .cards {
     grid-template-columns: minmax(min-content, max-content);
     gap: 2rem;
+    margin-bottom: 3.125rem;
   }
 }
