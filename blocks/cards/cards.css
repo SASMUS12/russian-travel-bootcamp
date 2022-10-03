@@ -1,15 +1,14 @@
 .cards {
   max-width: 984px;
   display: grid;
-  grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+  grid-template-columns: minmax(min-content, 460px) minmax(min-content, max-content);
   gap: 3rem 2.5rem;
   margin: 0 0 5rem;
 }
 
 @media screen and (max-width: 1270px) {
   .cards {
-    grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
-
+    grid-template-columns: minmax(min-content, 440px) minmax(min-content, max-content);
     grid-gap: 3rem 2rem;
   }
 
@@ -17,7 +16,7 @@
 
 @media screen and (max-width: 1020px) {
   .cards {
-    grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+    grid-template-columns: minmax(min-content, 340px) minmax(min-content, max-content);
     gap: 3rem 1.75rem;
   }
 }
