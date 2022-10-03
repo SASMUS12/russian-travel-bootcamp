@@ -5,21 +5,21 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 1029px) {
+@media screen and (max-width: 1270px) {
   .cards__image {
     height: 27.5rem;
     width: 27.5rem;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1020px) {
   .cards__image {
     height: 21.25rem;
     width: 21.25rem;
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 760px) {
   .cards__image {
     height: 20rem;
     width: 20rem;

@@ -6,6 +6,12 @@
   line-height: 1.125rem;
 }
 
+@media screen and (max-width: 720px) {
+  .footer__author {
+    margin-bottom: 24px;
+  }
+}
+
 @media screen and (max-width: 325px) {
   .footer__author {
     margin: 3rem 0 0;

@@ -9,7 +9,7 @@
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1000px) {
   .cards__paragraph {
     font-size: 1rem;
     line-height: calc(26 / 16);

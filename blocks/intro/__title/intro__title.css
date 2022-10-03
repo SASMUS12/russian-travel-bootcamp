@@ -5,7 +5,7 @@
   line-height: calc(58 / 57);
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 760px) {
   .intro__title {
     font-size: 2rem;
     line-height: calc(35 / 32);

@@ -6,19 +6,19 @@
   margin: 0 auto 1.5rem;
 }
 
-@media screen and (max-width: 1029px) {
+@media screen and (max-width: 1270px) {
   .footer {
     margin: 0 3rem 1.5rem;
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 768px) {
   .footer {
   margin: 0 1.5rem 1.5rem;
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 320px) {
   .footer {
     margin: 0 7.375rem 1.5rem 1rem;
     flex-direction: column;

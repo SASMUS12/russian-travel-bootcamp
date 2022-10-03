@@ -5,14 +5,14 @@
   line-height: calc(76 / 72);
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1020px) {
   .cards__title {
     font-size: 2.625rem;
     line-height: calc(46 / 42);
   }
 }
 
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 760px) {
   .cards__title {
     font-size: 2rem;
     line-height: calc(35 / 32);

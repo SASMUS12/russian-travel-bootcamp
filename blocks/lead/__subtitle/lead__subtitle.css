@@ -6,8 +6,7 @@
   line-height: calc(36 / 30);
 }
 
-
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
     margin: 1rem auto 2.5rem;
     line-height: calc(20 / 16);
